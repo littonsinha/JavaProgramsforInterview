@@ -1,17 +1,16 @@
 package interviewPractice;
 
 import java.util.HashSet;
-import java.util.Set;
 
 public class DuplicateInArray
 {
 	public static void main(String[] args)
 	{
-		String names [] = {"Java", "Python", "Ruby", "C", "Java", "Perl"};
+		String words [] = {"Java", "Python", "Ruby", "C", "Java", "Perl"};
 		
-		Set<String> store = new HashSet<String>();
+		HashSet<String> store = new HashSet<String>();
 		
-		for(String name:names)
+		for(String name:words)
 		{
 			if(store.add(name)==false)
 			{

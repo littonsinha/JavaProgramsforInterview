@@ -1,6 +1,3 @@
-/*
- * Author: Litton Sinha
- */
 package interviewPractice;
 
 public class Armstrong
@@ -8,8 +5,7 @@ public class Armstrong
 	public static void isArmstrong(int num)
 	{
 		int cube=0;
-		int reverse;
-		int temp;
+		int reverse, temp;
 		temp=num;	
 		while(num>0)
 		{

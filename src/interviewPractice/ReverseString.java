@@ -4,7 +4,7 @@ public class ReverseString
 {
 	String str = "Litton";
 	
-	public void reverseAStringUsingCharArray()
+	public void reverseStringUsingCharArray()
 	{
 		char chars[] = str.toCharArray();
 		int len = chars.length;
@@ -15,7 +15,7 @@ public class ReverseString
 		}	
 	}
 	
-	public void reverseAStringUsingStringBuilder()
+	public void reverseStringUsingStringBuilder()
 	{
 		StringBuilder sb = new StringBuilder();
 		sb.append(str);
@@ -23,7 +23,7 @@ public class ReverseString
 		System.out.println(sb);
 	}
 
-	public void reverseAStringUsingStringBuffer()
+	public void reverseStringUsingStringBuffer()
 	{
 		StringBuffer sb = new StringBuffer();
 		sb.append(str);
@@ -31,7 +31,7 @@ public class ReverseString
 		System.out.println(sb);
 	}
 	
-	public void reverseAStringUsingCharAt()
+	public void reverseStringUsingCharAt()
 	{
 		String original = "Litton";
 		String reverse = "";
@@ -49,7 +49,7 @@ public class ReverseString
 		ReverseString sp = new ReverseString();
 		//sp.reverseAStringUsingCharArray();
 		//sp.reverseAStringUsingStringBuilder();
-		sp.reverseAStringUsingCharAt();
+		sp.reverseStringUsingCharAt();
 		//sp.reverseAStringUsingStringBuffer();
 	}
 }

@@ -18,6 +18,6 @@ public class FactorialNumber
 
 	public static void main(String[] args)
 	{
-		System.out.println(factorial(1));
+		System.out.println(factorial(5));
 	}
 }
