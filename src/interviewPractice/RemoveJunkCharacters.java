@@ -6,9 +6,6 @@ public class RemoveJunkCharacters
 	{
 		String a = "!@#$Litton)(&((()";
 		a = a.replaceAll("[^A-Za-z0-9]", "");
-		System.out.println(a);
-		
-		
+		System.out.println(a);	
 	}
-
 }

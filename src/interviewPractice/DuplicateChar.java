@@ -26,6 +26,6 @@ public class DuplicateChar
 	
 	public static void main(String[] args)
 	{	
-		dupChar("LittonSinha");
+		dupChar("Litton");
 	}
 }
