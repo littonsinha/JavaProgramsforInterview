@@ -5,7 +5,8 @@ public class Armstrong
 	public static void isArmstrong(int num)
 	{
 		int cube=0;
-		int reverse, temp;
+		int reverse;
+		int temp;
 		temp=num;	
 		while(num>0)
 		{
