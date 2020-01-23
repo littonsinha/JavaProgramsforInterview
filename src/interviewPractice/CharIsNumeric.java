@@ -1,6 +1,3 @@
-/*
- * Author: Litton
- */
 package interviewPractice;
 
 public class CharIsNumeric

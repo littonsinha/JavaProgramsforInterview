@@ -1,11 +1,9 @@
-/*
- * Author Litton
- */
 package interviewPractice;
 
 public class DuplicateChar
 {
 	static int count = 0;
+	
 	public static void dupChar(String name)
 	{
 		char chars[] = name.toCharArray();
