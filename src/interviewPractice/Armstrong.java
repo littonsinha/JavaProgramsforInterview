@@ -13,7 +13,7 @@ public class Armstrong
 			reverse=num%10;
 			num=num/10;
 			cube=cube+(reverse*reverse*reverse);
-		}		
+		}	
 		if(temp==cube)
 		{
 			System.out.println("Armstrong");

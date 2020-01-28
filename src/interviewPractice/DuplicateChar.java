@@ -2,10 +2,9 @@ package interviewPractice;
 
 public class DuplicateChar
 {
-	static int count = 0;
-	
 	public static void dupChar(String name)
 	{
+		int count = 0;
 		char chars[] = name.toCharArray();
 		
 		for(int i=0; i<name.length();i++)
